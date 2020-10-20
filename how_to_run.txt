@@ -1,0 +1,46 @@
+install anaconda (whichever new version)
+(base) coil@coil-VM:~/Desktop$ conda create -n decision_trees python=3.5  pandas numpy quandl graphviz
+
+#
+# To activate this environment, use
+#
+#     $ conda activate decision_trees
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+(base) coil@coil-VM:~/Desktop$ conda activate decision_trees
+(decision_trees) coil@coil-VM:~/Desktop$ which python
+/home/coil/anaconda3/envs/decision_trees/bin/python
+(decision_trees) coil@coil-VM:~/Desktop$ which python3
+/home/coil/anaconda3/envs/decision_trees/bin/python3
+(decision_trees) coil@coil-VM:~/Desktop$ python --version
+Python 3.5.6 :: Anaconda, Inc.
+
+
+(decision_trees) coil@coil-VM:~/Desktop$ conda install -c quantopian ta-lib
+
+---------------------
+before running jupyter notebook
+conda install jupyter
+
+which jupyter
+
+jupyter-notebook
+
+
+and graphviz
+conda install python-graphviz 
+
+
+pip install cython 
+pip install yfinance
+pip3 install yfinance
+
+conda install -c anaconda jupyterlab
+
+
+aand you are ready to go
+
