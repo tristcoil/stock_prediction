@@ -40,7 +40,8 @@ pip install yfinance
 pip3 install yfinance
 
 conda install -c anaconda jupyterlab
-
+conda install -c conda-forge streamlit
+conda install -c conda-forge fbprophet
 
 aand you are ready to go
 
